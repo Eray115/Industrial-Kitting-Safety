@@ -1,0 +1,15 @@
+# Python temporary and cache files
+__pycache__/
+*.pyc
+
+# Large Datasets (Excluded from GitHub)
+data_pool/
+yolo_dataset/
+
+# System and Virtual Environment files
+.venv/
+venv/
+.DS_Store
+# Large Video Files (Excluded from GitHub due to size limits)
+*.mp4
+*.avi

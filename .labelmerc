@@ -1,0 +1,9 @@
+# Labelme config file.
+# Only add settings you want to override.
+# For all available options and defaults, see:
+#   https://github.com/wkentaro/labelme/blob/main/labelme/config/default_config.yaml
+#
+# Example:
+# with_image_data: true
+# auto_save: false
+# labels: [cat, dog]

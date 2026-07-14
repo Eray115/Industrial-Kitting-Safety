@@ -1,0 +1,21 @@
+Validating C:\Users\eraya\OneDrive\Desktop\Project\YOLO_My_Model_1\weights\best.pt...
+
+Ultralytics 8.4.57  Python-3.11.9 torch-2.6.0+cu124 CPU (Intel Core i7-14700HX)
+
+YOLOv8n-seg summary (fused): 86 layers, 3,258,844 parameters, 0 gradients, 11.3 GFLOPs
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 3/3 1.6s/it 4.9s
+
+                   all         67        213      0.999      0.996      0.995      0.992      0.999      0.996      0.995      0.991
+
+                 robot         67         67      0.999          1      0.995      0.995      0.999          1      0.995      0.994
+
+               red_obj         64         64          1          1      0.995      0.991          1          1      0.995      0.991
+
+             green_obj         60         60          1      0.985      0.995      0.994          1      0.985      0.995      0.985
+
+                  hand         22         22      0.996          1      0.995       0.99      0.996          1      0.995      0.995
+
+Speed: 0.8ms preprocess, 46.4ms inference, 0.0ms loss, 2.4ms postprocess per image
+
+Results saved to C:\Users\eraya\OneDrive\Desktop\Project\YOLO_My_Model_1
