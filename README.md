@@ -21,6 +21,8 @@ The system utilizes the **YOLOv8-Segmentation (YOLOv8n-seg)** architecture to pe
 
 ## Training Performance & Results
 
+![Demo_Video](https://raw.githubusercontent.com/Eray115/Industrial-Kitting-Safety/refs/heads/main/project_demo.gif )
+
 The **YOLOv8n-seg** model was trained for 50 epochs on an Intel Core i7-14700HX CPU. The evaluation metrics demonstrate exceptional stability and accuracy:
 
 * **Total Dataset Size:** 377 raw images and JSON annotations (`data_pool`), generating 67 validation images with 213 distinct instances.
@@ -73,7 +75,7 @@ To verify the metrics, the following training charts generated inside `YOLO_My_M
 ├── video_test.py                   # Processes offline video recordings with fast-forward frame skipping and HUD
 ├── 90second_sample video.py        # Utility script to record a raw 90-second MP4 video using a Basler camera
 └── README.md                       # Documentation file
-
+```
 Prerequisites:
 Make sure you have Python 3.10+ installed along with the following packages:
 
